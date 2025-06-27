@@ -1,0 +1,44 @@
+a,
+span {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.side-clr {
+    background-color: #212b36;
+    height: 100vh;
+}
+
+.menu ul li a {
+    color: #919EAB;
+}
+
+.row>div {
+    border: 1px solid red;
+}
+
+.circle-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.round-bell {
+    background-color: rgb(232, 234, 236);
+     height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-para{font-size: 14px;}
+.py-6{ padding: 120px 0px;}
