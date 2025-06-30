@@ -4,13 +4,16 @@ span {
     text-decoration: none;
 }
 
+body {
+    background-color: #f1f5f9;
+}
+
 ul {
     list-style: none;
 }
 
 .side-clr {
     background-color: #212b36;
-    height: 100vh;
 }
 
 .menu ul li a {
@@ -33,12 +36,54 @@ ul {
 
 .round-bell {
     background-color: rgb(232, 234, 236);
-     height: 40px;
+    height: 40px;
     width: 40px;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.profile-para{font-size: 14px;}
-.py-6{ padding: 120px 0px;}
+
+.profile-para {
+    font-size: 14px;
+}
+
+.py-6 {
+    padding: 120px 0;
+}
+
+.icon-bg {
+    color: blue;
+    background-color: #e0dcfe;
+    border-radius: 5px;
+    padding: 8px 13px;
+}
+
+.text-gray {
+    color: #637381;
+}
+
+.small_avatar {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    display: inline-block;
+    border: 2px solid white;
+    margin-right: -20px;
+    position: relative;
+}
+
+.small_avatar:hover {
+    z-index: 10;
+}
+
+.tbl-th > th {
+    background-color: #f1f5f9;
+    font-size: 15px;
+    color: rgb(99, 115, 129);
+    font-weight: 500;
+}
+.tbl2-img{ width: 40px; height: 40px; border-radius: 100%;}
+
+.menu ul li a:hover {
+    color: #f4f6f8;
