@@ -3,6 +3,7 @@ span {
     display: inline-block;
     text-decoration: none;
 }
+.row{ margin: 0px;}
 
 body {
     background-color: #f1f5f9;
@@ -18,10 +19,6 @@ ul {
 
 .menu ul li a {
     color: #919EAB;
-}
-
-.row>div {
-    border: 1px solid red;
 }
 
 .circle-img {
@@ -86,4 +83,4 @@ ul {
 .tbl2-img{ width: 40px; height: 40px; border-radius: 100%;}
 
 .menu ul li a:hover {
-    color: #f4f6f8;
+    color: #f4f6f8;}
